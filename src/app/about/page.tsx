@@ -25,23 +25,23 @@ export default function AboutPage() {
       <Container className="mt-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
 
-            <div className="space-y-6 text-sm/7 text-gray-600">
-              <p>
+          <div className="space-y-6 text-sm/7 text-gray-600">
+            <p>
               My journey into technology started with a fascination for how we can teach machines to see and understand the world.
-</p>
-<p>
-With a BSc in Computer Science and Chemistry from Tel Aviv University, and an MSc with Honours in Semiconductor Spectroscopy, I've built a strong foundation in both the theoretical and practical aspects of imaging systems and software development.
-</p>
-<p>
-At Israel Aerospace Industries and TriEye, I developed advanced computer vision algorithms for NUC, denoising, motion correction, and object tracking. I prototyped solutions in Python and implemented production-ready code in C++ with CUDA acceleration—always pushing the boundaries of what's possible with image processing.
-</p>
-<p>
-Currently, I'm expanding my expertise through roles at Abili-Tech (building transformer neural networks for ASL translation), JobHuntingU (AI workflow automation), and CashGrow (full-stack development with React and TypeScript).
-</p>
-<p>
-I thrive in environments where complex technical challenges meet real-world impact. Whether it's building ML pipelines, optimizing GPU-accelerated algorithms, or creating scalable web applications, I bring analytical rigor and a passion for elegant solutions.
-</p>
-            </div>
+            </p>
+            <p>
+              With a BSc in Computer Science and Chemistry from Tel Aviv University, and an MSc with Honours in Semiconductor Spectroscopy, I've built a strong foundation in both the theoretical and practical aspects of imaging systems and software development.
+            </p>
+            <p>
+              At Israel Aerospace Industries and TriEye, I developed advanced computer vision algorithms for NUC, denoising, motion correction, and object tracking. I prototyped solutions in Python and implemented production-ready code in C++ with CUDA acceleration-always pushing the boundaries of what's possible with image processing.
+            </p>
+            <p>
+              Currently, I'm expanding my expertise through roles at Abili-Tech (building transformer neural networks for ASL translation), JobHuntingU (AI workflow automation), and CashGrow (full-stack development with React and TypeScript).
+            </p>
+            <p>
+              I thrive in environments where complex technical challenges meet real-world impact. Whether it's building ML pipelines, optimizing GPU-accelerated algorithms, or creating scalable web applications, I bring analytical rigor and a passion for elegant solutions.
+            </p>
+          </div>
 
           {/* Offset grid of images */}
           <div className="lg:pl-8">
