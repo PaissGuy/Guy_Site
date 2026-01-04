@@ -1,24 +1,25 @@
-# Amy Chou | Product Designer & AI-Powered Engineer - Personal Portfolio
+# Guy Paiss | Software Developer & Computer Vision Engineer - Personal Portfolio
 
-A modern, AI-inspired portfolio website showcasing product design and development expertise with emphasis on systems thinking and rapid execution.
+A modern portfolio website showcasing software development and computer vision expertise, featuring intelligent systems built with machine learning and full-stack development.
 
 ## Features
 
-- **Animated Sand Dunes Background** - Beautiful fluid animations inspired by organic forms
+- **Animated Sand Dunes Background** - Beautiful fluid animations with sage/forest green palette
 - **Responsive Design** - Optimized for all devices with Tailwind CSS
 - **Dynamic Projects** - Markdown-based project management with automatic routing
+- **Interactive Components** - 3D profile cards with holographic effects
 - **Modern Tech Stack** - Built with Next.js 14, TypeScript, and Shadcn UI
 - **Fast Performance** - Optimized for speed and user experience
-- **Vercel Ready** - Configured for seamless deployment
 
 ## Tech Stack
 
 - **Framework**: Next.js 14 with App Router
 - **Styling**: Tailwind CSS with custom design system
 - **UI Components**: Shadcn UI with Radix primitives
+- **Animations**: Framer Motion
 - **Content**: Markdown with gray-matter parsing
-- **Typography**: Inter font family
-- **Deployment**: Vercel (ready to deploy)
+- **Icons**: Lucide React, Heroicons
+- **Deployment**: Vercel
 
 ## Getting Started
 
@@ -38,14 +39,20 @@ A modern, AI-inspired portfolio website showcasing product design and developmen
 ## Project Structure
 
 ```
+src/
 ├── app/                    # Next.js app directory
 │   ├── page.tsx           # Home page with hero section
+│   ├── about/             # About page
 │   ├── projects/          # Projects listing and detail pages
 │   ├── contact/           # Contact page
 │   ├── layout.tsx         # Root layout
 │   └── globals.css        # Global styles
 ├── components/            # Reusable components
 │   ├── ui/               # Shadcn UI components
+│   ├── navbar.tsx        # Navigation component
+│   ├── footer.tsx        # Footer component
+│   ├── container.tsx     # Layout container
+│   ├── text.tsx          # Typography components
 │   └── sand-dunes-background.tsx
 ├── content/              # Markdown content
 │   └── projects/         # Project case studies
@@ -53,6 +60,7 @@ A modern, AI-inspired portfolio website showcasing product design and developmen
 │   ├── utils.ts          # Tailwind class merging
 │   └── projects.ts       # Project content management
 └── public/               # Static assets
+    └── images/           # Profile and project images
 ```
 
 ## Adding New Projects
@@ -65,9 +73,10 @@ A modern, AI-inspired portfolio website showcasing product design and developmen
    description: "Brief description"
    date: "2024-01-15"
    category: "Category"
-   technologies: ["Tech1", "Tech2"]
+   technologies: ["Python", "OpenCV", "React"]
    featured: true
    image: "/projects/image.jpg"
+   link: "https://github.com/..."
    ---
    ```
 3. Write your project content in markdown
@@ -76,21 +85,14 @@ A modern, AI-inspired portfolio website showcasing product design and developmen
 ## Customization
 
 ### Colors
-The site uses a sand dunes inspired color palette. Update colors in `tailwind.config.ts`:
-- Sand colors: `#faf9f7` to `#44337a`
-- Violet colors: `#f5f3ff` to `#4c1d95`
-- Purple colors: `#faf5ff` to `#581c87`
-
-### Animation
-The sand dunes background animation can be customized in `components/sand-dunes-background.tsx`. Adjust:
-- Animation duration and easing
-- Layer positions and sizes
-- Color gradients and opacity
-- Particle effects
+The site uses a sage/forest green color palette. Custom colors defined in Tailwind:
+- Sage greens for highlights and accents
+- Forest greens for depth and shadows
+- Moss greens for mid-tones
 
 ### Content
 - Update personal information in page components
-- Modify the hero headline and subhead in `app/page.tsx`
+- Modify the hero headline in `app/page.tsx`
 - Update contact information in `app/contact/page.tsx`
 
 ## Deployment
@@ -100,28 +102,12 @@ The sand dunes background animation can be customized in `components/sand-dunes-
 2. Connect repository to Vercel
 3. Deploy automatically with zero configuration
 
-### Other Platforms
-The site is a standard Next.js application and can be deployed to:
-- Netlify
-- Railway
-- AWS Amplify
-- Any Node.js hosting platform
+## Scripts
 
-## Performance
-
-- Lighthouse score: 95+ for all metrics
-- Core Web Vitals optimized
-- Image optimization with Next.js
-- Font optimization with next/font
-- CSS optimization with Tailwind
-
-## AI Development Approach
-
-This portfolio was built using AI-assisted development:
-- **Claude Code** for architecture and implementation
-- **Cursor** for intelligent code completion
-- **V0** for component prototyping
-- **Systems thinking** for scalable architecture
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
 ## License
 
@@ -129,4 +115,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-Built with ❤️ using AI-powered development tools and systems thinking.
+Built by Guy Paiss - Vancouver, BC
