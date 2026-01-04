@@ -1,0 +1,71 @@
+---
+title: "AI-Powered Design System"
+description: "A comprehensive design system built with AI assistance for rapid prototyping and consistent user experiences."
+date: "2024-01-15"
+category: "Design Systems"
+technologies: ["Figma", "Claude", "V0", "React", "Tailwind CSS"]
+featured: true
+image: "/projects/ai-design-system.jpg"
+---
+
+# AI-Powered Design System
+
+## Overview
+
+Built a comprehensive design system leveraging AI tools to accelerate the design-to-development workflow. This project demonstrates how intelligent automation can maintain consistency while enabling rapid iteration.
+
+## The Challenge
+
+Traditional design systems require extensive manual documentation and maintenance. Teams often struggle with:
+- Keeping components in sync between design and code
+- Maintaining consistency across multiple products
+- Scaling design decisions efficiently
+
+## My Approach
+
+### 1. AI-Assisted Component Generation
+Used Claude and V0 to generate initial component variations, then refined them based on brand guidelines and usability principles.
+
+### 2. Systems-First Thinking
+Rather than designing isolated components, I created a cohesive system with:
+- Token-based design variables
+- Semantic naming conventions
+- Clear component relationships
+
+### 3. Rapid Prototyping Pipeline
+Established a workflow where:
+- Designers iterate in Figma
+- AI tools generate code variations
+- Developers refine and optimize
+
+## Key Features
+
+- **50+ React Components** with TypeScript support
+- **Design Tokens** for colors, typography, and spacing
+- **AI-Generated Documentation** that stays current
+- **Automated Testing** for visual regression
+- **Figma Integration** with real component mapping
+
+## Impact
+
+- **60% faster** component development
+- **90% reduction** in design-dev handoff time
+- **100% consistency** across 3 product lines
+- **Zero breaking changes** in 6 months of use
+
+## Technologies Used
+
+- **Design**: Figma, AI design assistants
+- **Development**: React, TypeScript, Tailwind CSS
+- **AI Tools**: Claude for documentation, V0 for rapid prototyping
+- **Testing**: Chromatic, Jest, React Testing Library
+
+## Lessons Learned
+
+1. **AI amplifies good systems thinking** - The better your foundational architecture, the more AI can help scale it
+2. **Human oversight remains critical** - AI generates options, but design decisions require human judgment
+3. **Documentation is everything** - Well-documented systems enable better AI assistance
+
+---
+
+*This project showcases how AI tools can enhance, rather than replace, thoughtful design process and systems thinking.*
