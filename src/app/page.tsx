@@ -1,8 +1,8 @@
 import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
 import { Navbar } from '@/components/navbar'
-import { ProfileCard } from '@/components/profile-card'
 import { SandDunesBackground } from '@/components/sand-dunes-background'
+import Image from 'next/image'
 import { Heading, Lead, Subheading } from '@/components/text'
 import { Link } from '@/components/link'
 import { ArrowUpRight, Linkedin, Github } from 'lucide-react'
@@ -32,9 +32,17 @@ export default async function Home() {
             {/* Content determines the height */}
             <div className="relative pt-40 pb-16 lg:pt-56 lg:pb-24">
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 items-center">
-                {/* Profile Card - First on mobile, right side on desktop */}
+                {/* Drone Image - First on mobile, right side on desktop */}
                 <div className="order-1 lg:order-2 lg:col-span-1 flex justify-center">
-                  <ProfileCard />
+                  <div className="relative w-full max-w-lg aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl ring-1 ring-black/10">
+                    <Image
+                      src="/images/drone.jpg"
+                      alt="FPV Racing Drone"
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
                 </div>
 
                 {/* Content - Second on mobile, left side on desktop */}
@@ -76,7 +84,7 @@ export default async function Home() {
           {/* Animated Blurred Photo - Centered above headline */}
           <div className="flex justify-center mb-12">
             <AnimatedBlurredPhoto
-              src="/images/guy-headshot.jpg"
+              src="/images/Guy_CashGrow.jpeg"
               alt="Guy Paiss"
               size={160}
             />

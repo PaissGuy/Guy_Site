@@ -22,12 +22,12 @@ function MeshGradientOverlay({
 
   // Memoize colors to prevent recreation on every render
   const colors = useMemo(() => [
-    '#DCC2FF', // soft lavender highlight
-    '#B8AEF5', // light periwinkle
-    '#9CA0E8', // mid periwinkle
-    '#A889D3', // muted violet midtone
-    '#C78FD6', // rosy amethyst bloom
-    '#8A78C6', // deeper periwinkle shadow
+    '#B5C4B3', // soft sage highlight
+    '#8FA38B', // light sage
+    '#6B8268', // mid forest green
+    '#4A5D48', // muted forest midtone
+    '#7A9A77', // moss green bloom
+    '#5A7358', // deeper sage shadow
   ], []);
 
   // Prevent hydration mismatch

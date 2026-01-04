@@ -17,7 +17,7 @@ export default function AnimatedBlurredPhoto({
     <div className="relative" style={{ width: size, height: size }}>
       {/* Container for photo and mesh */}
       <div
-        className="rounded-full overflow-hidden border-2 border-accent-200/50 shadow-xl relative w-full h-full"
+        className="rounded-full overflow-hidden border-2 border-sage-400/50 shadow-xl relative w-full h-full"
       >
         {/* Clear photo - no blur */}
         <img
