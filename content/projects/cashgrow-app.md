@@ -6,6 +6,7 @@ category: "Full-Stack Development"
 technologies: ["TypeScript", "React", "Node.js", "PostgreSQL", "Docker", "GCP", "Netlify"]
 featured: true
 image: "/images/project-cashgrow.png"
+link: "https://www.cashgrow.net"
 ---
 
 ## Overview
