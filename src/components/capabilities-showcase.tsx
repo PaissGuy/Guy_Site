@@ -5,9 +5,9 @@ import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useDebouncedCallback } from 'use-debounce'
 import { clsx } from 'clsx'
-import { Sparkles, Layout, Zap } from 'lucide-react'
+import { Sparkles, Workflow, Zap } from 'lucide-react'
 import { RagChatDemo } from './rag-chat-demo'
-import { DesignSystemsDemo } from './design-systems-demo'
+import { AIAgentsDemo } from './ai-agents-demo'
 import { RapidPrototypesDemo } from './rapid-prototypes-demo'
 
 interface Capability {
@@ -25,10 +25,10 @@ const capabilities: Capability[] = [
     demo: RagChatDemo,
   },
   {
-    name: 'Design Systems',
-    description: 'LLM friendly design systems',
-    icon: Layout,
-    demo: DesignSystemsDemo,
+    name: 'AI Agents Integration',
+    description: 'Workflow automation orchestrating AI tools and integrations',
+    icon: Workflow,
+    demo: AIAgentsDemo,
   },
   {
     name: 'Rapid Prototyping (in code!)',
@@ -87,7 +87,7 @@ export function CapabilitiesShowcase() {
                 }
               >
                 {capability.name === 'AI-Powered Assistants' && 'AI Assistants'}
-                {capability.name === 'Design Systems' && 'Design Systems'}
+                {capability.name === 'AI Agents Integration' && 'AI Agents'}
                 {capability.name === 'Rapid Prototyping (in code!)' && 'Prototyping'}
               </Tab>
             ))}
