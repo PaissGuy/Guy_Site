@@ -35,7 +35,7 @@ export function N8nAutoposterMiniDemo() {
   }, [])
 
   return (
-    <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-purple-50 via-pink-50 to-orange-50 relative overflow-hidden">
+    <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-purple-50 via-pink-50 to-orange-50 relative overflow-hidden grayscale brightness-[0.98] contrast-[0.96] group-hover:grayscale-0 group-hover:brightness-100 group-hover:contrast-100 transition-all duration-200">
       <div className="relative w-full h-full p-6 flex items-center justify-center">
         {/* Workflow Steps */}
         <div className="grid grid-cols-2 gap-4 w-full max-w-xs">
