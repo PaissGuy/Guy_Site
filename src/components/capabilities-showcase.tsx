@@ -5,10 +5,12 @@ import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useDebouncedCallback } from 'use-debounce'
 import { clsx } from 'clsx'
-import { Sparkles, Workflow, Zap } from 'lucide-react'
+import { Sparkles, Workflow, Zap, Eye, Brain } from 'lucide-react'
+import { ComputerVisionDemo } from './computer-vision-demo'
+import { MLSystemsDemo } from './ml-systems-demo'
+import { GPUPerformanceDemo } from './gpu-performance-demo'
 import { RagChatDemo } from './rag-chat-demo'
 import { AIAgentsDemo } from './ai-agents-demo'
-import { RapidPrototypesDemo } from './rapid-prototypes-demo'
 
 interface Capability {
   name: string
@@ -19,8 +21,26 @@ interface Capability {
 
 const capabilities: Capability[] = [
   {
+    name: 'Computer Vision & Image Processing',
+    description: 'Real-time algorithms for denoising, motion correction, and image enhancement',
+    icon: Eye,
+    demo: ComputerVisionDemo,
+  },
+  {
+    name: 'Machine Learning & AI Systems',
+    description: 'Transformer models and deep learning pipelines for complex AI tasks',
+    icon: Brain,
+    demo: MLSystemsDemo,
+  },
+  {
+    name: 'GPU-Accelerated Processing',
+    description: 'CUDA-optimized algorithms achieving 15x+ performance improvements',
+    icon: Zap,
+    demo: GPUPerformanceDemo,
+  },
+  {
     name: 'AI-Powered Assistants',
-    description: 'RAG-powered search with source citations',
+    description: 'RAG-powered search with source citations and knowledge retrieval',
     icon: Sparkles,
     demo: RagChatDemo,
   },
@@ -29,12 +49,6 @@ const capabilities: Capability[] = [
     description: 'Workflow automation orchestrating AI tools and integrations',
     icon: Workflow,
     demo: AIAgentsDemo,
-  },
-  {
-    name: 'Rapid Prototyping (in code!)',
-    description: 'Figure out what to build with coded prototypes',
-    icon: Zap,
-    demo: RapidPrototypesDemo,
   },
 ]
 
@@ -86,9 +100,11 @@ export function CapabilitiesShowcase() {
                   )
                 }
               >
+                {capability.name === 'Computer Vision & Image Processing' && 'Computer Vision'}
+                {capability.name === 'Machine Learning & AI Systems' && 'ML Systems'}
+                {capability.name === 'GPU-Accelerated Processing' && 'GPU Performance'}
                 {capability.name === 'AI-Powered Assistants' && 'AI Assistants'}
                 {capability.name === 'AI Agents Integration' && 'AI Agents'}
-                {capability.name === 'Rapid Prototyping (in code!)' && 'Prototyping'}
               </Tab>
             ))}
           </TabList>
