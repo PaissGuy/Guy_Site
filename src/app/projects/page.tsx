@@ -6,6 +6,7 @@ import { Heading, Lead, Subheading } from '@/components/text'
 import { Link } from '@/components/link'
 import { Button } from '@/components/ui/button'
 import { BlindishMiniDemo } from '@/components/blindish-mini-demo'
+import { N8nAutoposterMiniDemo } from '@/components/n8n-autoposter-mini-demo'
 import { ArrowUpRight } from 'lucide-react'
 
 export default async function ProjectsPage() {
@@ -36,6 +37,8 @@ export default async function ProjectsPage() {
               <div className="w-full aspect-[3/2] rounded-2xl mb-2 overflow-hidden relative">
                 {project.slug === 'blindish-app' ? (
                   <BlindishMiniDemo />
+                ) : project.slug === 'n8n-ai-autoposter' ? (
+                  <N8nAutoposterMiniDemo />
                 ) : (
                   <img
                     src={project.image}
