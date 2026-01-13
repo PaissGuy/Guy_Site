@@ -6,6 +6,7 @@ category: "AI Integration & Automation"
 technologies: ["n8n", "Zapier", "Airtable", "Mindpal", "Google Drive", "Facebook API", "Instagram API"]
 featured: true
 image: "/images/project-n8n-autoposter.png"
+link: "https://www.facebook.com/photo?fbid=1185080867168641&set=a.581385397538194"
 ---
 
 ## Overview
