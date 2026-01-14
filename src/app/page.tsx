@@ -8,6 +8,7 @@ import { Link } from '@/components/link'
 import { ArrowUpRight, Linkedin, Github } from 'lucide-react'
 import { getFeaturedProjects } from '@/lib/projects'
 import { BlindishMiniDemo } from '@/components/blindish-mini-demo'
+import { N8nAutoposterMiniDemo } from '@/components/n8n-autoposter-mini-demo'
 import AnimatedBlurredPhoto from '@/components/animated-blurred-photo'
 import { CapabilitiesShowcase } from '@/components/capabilities-showcase'
 
@@ -157,6 +158,8 @@ export default async function Home() {
               <div className="w-full aspect-[3/2] rounded-2xl mb-2 overflow-hidden relative">
                 {project.slug === 'blindish-app' ? (
                   <BlindishMiniDemo />
+                ) : project.slug === 'n8n-ai-autoposter' ? (
+                  <N8nAutoposterMiniDemo />
                 ) : (
                   <img
                     src={project.image}
