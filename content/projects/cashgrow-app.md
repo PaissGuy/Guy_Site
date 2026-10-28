@@ -1,7 +1,7 @@
 ---
 title: "CashGrow Financial App"
 description: "Full-stack financial application built with TypeScript, React, and Node.js, featuring PostgreSQL backend and cloud deployment on GCP and Netlify."
-date: "2025-08-01"
+date: "2024-08-01"
 category: "Full-Stack Development"
 technologies: ["TypeScript", "React", "Node.js", "PostgreSQL", "Docker", "GCP", "Netlify"]
 featured: true

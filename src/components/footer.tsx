@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="bg-white py-12 text-center">
       <Container>
         <p className="text-gray-600 text-sm">
-          © 2025 Guy Paiss
+          © 2026 Guy Paiss
         </p>
       </Container>
     </footer>

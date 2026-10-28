@@ -51,15 +51,12 @@ export default async function Home() {
                   <Heading as="h1" className="mb-6 mt-2 !leading-[1.1] hero-text-gradient hero-heading-gradient">
                     Turning vision into reality.
                   </Heading>
-                  <Lead className="hero-text-gradient hero-lead-gradient font-light">I build intelligent systems with computer vision, machine learning, and full-stack development—from algorithm design to deployment.</Lead>
+                  <Lead className="hero-text-gradient hero-lead-gradient font-light">I build intelligent systems with computer vision, machine learning, and AI engineering — from embedded signal processing to full-stack platforms.</Lead>
 
                   {/* CTA Buttons */}
                   <div className="mt-12 flex flex-col sm:flex-row gap-4">
                     <a
-                      href="/Guy-Paiss-Resume.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      download="Guy-Paiss-Resume.pdf"
+                      href="/resume"
                       className="inline-flex text-accent-200 items-center justify-center rounded-full px-8 py-4 text-lg font-medium bg-accent-100/35 bg-blend-multiply hover:bg-accent-100/40 text-accent-50 hover:shadow-accent-500/30 transition-all duration-200 hover:text-accent-100"
                     >
                       View My Resume
@@ -99,10 +96,10 @@ export default async function Home() {
           {/* Body Text - Center Aligned */}
           <div className="max-w-lg mx-auto space-y-6 text-lg text-gray-600 leading-relaxed">
             <p>
-              I'm Guy — a software developer with a passion for computer vision, machine learning, and building systems that solve real problems.
+              I'm Guy — an AI developer and research engineer with 5+ years of experience in computer vision, machine learning, and building systems that solve real problems.
             </p>
             <p>
-              With a background in optics and imaging, I move between algorithm development in Python/C++ and full-stack applications with React/TypeScript. I thrive on turning complex technical challenges into elegant, working solutions.
+              From embedded ML on wearables to AI-powered video platforms, I move between algorithm development in Python/C++ and full-stack applications with React/TypeScript. I thrive on turning complex technical challenges into elegant, working solutions.
             </p>
           </div>
 
@@ -214,7 +211,7 @@ export default async function Home() {
             </Heading>
 
             <p className="mt-6 text-xl/8 text-gray-300 font-medium">
-              I work with teams tackling complex technical challenges — whether it's building computer vision systems, developing ML pipelines, or creating full-stack applications that scale.
+              I work with teams tackling complex technical challenges — whether it's building embedded ML systems, developing AI-powered platforms, or creating full-stack applications that scale.
             </p>
 
             <div className="mt-10">

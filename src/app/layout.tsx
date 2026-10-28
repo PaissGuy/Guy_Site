@@ -11,22 +11,22 @@ const megrim = Megrim({
 })
 
 export const metadata: Metadata = {
-  title: "Guy Paiss - Software Developer & Computer Vision Engineer",
-  description: "Software Engineer with 4+ years experience specializing in computer vision, AI/ML, and full-stack development.",
-  keywords: ["software development", "computer vision", "machine learning", "Python", "C++", "CUDA", "React", "TypeScript", "AI"],
+  title: "Guy Paiss - AI Developer & Research Engineer",
+  description: "AI Developer and Research Engineer with 5+ years of experience in computer vision, machine learning, signal processing, and full-stack development.",
+  keywords: ["AI developer", "research engineer", "computer vision", "machine learning", "signal processing", "Python", "C++", "CUDA", "React", "TypeScript", "embedded ML"],
   authors: [{ name: "Guy Paiss" }],
   creator: "Guy Paiss",
   openGraph: {
-    title: "Guy Paiss - Software Developer & Computer Vision Engineer",
-    description: "Software Engineer with 4+ years experience specializing in computer vision, AI/ML, and full-stack development.",
+    title: "Guy Paiss - AI Developer & Research Engineer",
+    description: "AI Developer and Research Engineer with 5+ years of experience in computer vision, machine learning, signal processing, and full-stack development.",
     url: "https://guypaiss.com",
-    siteName: "Guy Paiss - Software Developer & Computer Vision Engineer",
+    siteName: "Guy Paiss - AI Developer & Research Engineer",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Guy Paiss - Software Developer & Computer Vision Engineer",
-    description: "Software Engineer with 4+ years experience specializing in computer vision, AI/ML, and full-stack development.",
+    title: "Guy Paiss - AI Developer & Research Engineer",
+    description: "AI Developer and Research Engineer with 5+ years of experience in computer vision, machine learning, signal processing, and full-stack development.",
   },
 }
 

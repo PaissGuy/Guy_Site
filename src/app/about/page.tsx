@@ -13,10 +13,10 @@ export default function AboutPage() {
         <div className="mt-16 max-w-4xl">
           <Subheading>About</Subheading>
           <Heading as="h1" className="mt-2">
-            Engineer with a vision.
+            AI Developer & Research Engineer.
           </Heading>
           <Lead className="mt-6 text-gray-500">
-            Combining computer vision expertise with full-stack development to build intelligent systems.
+            5+ years building intelligent systems — from embedded ML on wearables to full-stack AI platforms and computer vision pipelines.
           </Lead>
         </div>
       </Container>
@@ -27,19 +27,22 @@ export default function AboutPage() {
 
           <div className="space-y-6 text-sm/7 text-gray-600">
             <p>
-              My journey into technology started with a fascination for how we can teach machines to see and understand the world.
+              AI Developer and Research Engineer with 5+ years of professional experience and a Master's of Science in Optics and Microscopy. My journey into technology started with a fascination for imaging technologies and AI image manipulation — teaching machines to see and understand the world.
             </p>
             <p>
-              With a BSc in Computer Science and Chemistry from Tel Aviv University, and an MSc with Honours in Semiconductor Spectroscopy, I've built a strong foundation in both the theoretical and practical aspects of imaging systems and software development.
+              With a BSc in Computer Science and Chemistry from Tel Aviv University, an MSc with Honours in Semiconductor Spectroscopy, and a Microsoft Azure AI900 certification, I've built a strong foundation in both the theoretical and practical aspects of imaging systems, machine learning, and software development.
             </p>
             <p>
-              At Israel Aerospace Industries and TriEye, I developed advanced computer vision algorithms for NUC, denoising, motion correction, and object tracking. I prototyped solutions in Python and implemented production-ready code in C++ with CUDA acceleration-always pushing the boundaries of what's possible with image processing.
+              At Israel Aerospace Industries and TriEye, I developed advanced computer vision algorithms for NUC, denoising, motion correction, and object tracking. I prototyped solutions in Python and implemented production-ready code in C++ with CUDA acceleration.
             </p>
             <p>
-              Currently, I'm expanding my expertise through roles at Abili-Tech (building transformer neural networks for ASL translation), JobHuntingU (AI workflow automation), and CashGrow (full-stack development with React and TypeScript).
+              At Nohayo, I build embedded ML models for wearable signal processing — fall detection with 97.9% sensitivity running in 2.5 KB RAM, vertical oscillation estimation reaching 0.37 cm calibrated MAE, and running power models validated with leave-one-person-out cross-validation, all shipped as reentrant C libraries.
             </p>
             <p>
-              I thrive in environments where complex technical challenges meet real-world impact. Whether it's building ML pipelines, optimizing GPU-accelerated algorithms, or creating scalable web applications, I bring analytical rigor and a passion for elegant solutions.
+              At Roomvu, I worked across a three-service platform (Laravel, Next.js, FastAPI) building AI-powered video generation — immersive property tours with generative video models, voice cloning engines, automated content pipelines, and AI image processing with background removal and avatar capture flows.
+            </p>
+            <p>
+              I thrive in environments where complex technical challenges meet real-world impact. Whether it's building embedded ML pipelines, optimizing GPU-accelerated algorithms, or creating full-stack applications that scale, I bring analytical rigor and a passion for elegant solutions.
             </p>
           </div>
 
